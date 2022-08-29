@@ -2,7 +2,9 @@ import './gallery.scss'
 
 const Gallery = () => {
   return (
-    <div>Gallery</div>
+    <div>
+      
+    </div>
   )
 }
 

@@ -2,7 +2,9 @@ import './contact.scss'
 
 const Contact = () => {
   return (
-    <div>Contact</div>
+    <div>
+      
+    </div>
   )
 }
 

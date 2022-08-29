@@ -2,7 +2,9 @@ import './plans.scss'
 
 const Plans = () => {
   return (
-    <div>Plans</div>
+    <div>
+      
+    </div>
   )
 }
 
