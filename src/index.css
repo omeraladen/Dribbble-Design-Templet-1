@@ -11,6 +11,48 @@
 :root{
     --primary-hue:210;
     --gray-hue:240;
-    --color-primary:hsl(var(--primary-hue), 100% , 50%)
+    --color-primary:hsl(var(--primary-hue), 100% , 50%);
+    --color-primary-variant:hsl(var(--primary-hue), 100% , 65%);
+    --color-secondary:#ffb116;
+    --color-gray-100:hsla(153, 5%, 50%, 1);
+    --color-gray-200:hsla(153, 5%, 28%, 1);
+    --color-gray-300:hsla(153, 5%, 20%, 1);
+    --color-gray-400:hsla(153, 5%, 13%, 1);
+    
+
+    --container-width-lg:90%;
+    --container-width-md:90%;
+
+    --transition:all 50ms ease;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: hidden;
+}
+
+.container {
+    width: var(--container-width-lg);
+    max-width: 1920px;
+    margin-inline: auto;
+    
+}
+
+h1,h2,h3,h4,h5{
+    line-height: 1.2;
+    color: var(--color-gray-100);
+}
+
+h1{
+    font-size:3rem ;
+}
+h2{
+    font-size:2rem ;
+}
+/* img{
+    display: block;
+    object-fit: cover;
+    width: 100%;
+} */

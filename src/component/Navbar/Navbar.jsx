@@ -9,14 +9,14 @@ const Navbar = () => {
     <nav>
         <div className="container nav__container">
             <Link to='/' className="logo">
-                <img src={Logo} alt="nav-logo" />
+                <img src={Logo} alt="nav-logo" /><p>&Flavor</p>
             </Link>
             <ul className='nav__links'>
               { 
                 links.map( (link , index) => {
                   return ( 
                     <li key={index}>
-                      <NavLink to={link.path}>{link.name}</NavLink>
+                      <NavLink id='nav_link' className={({isActive}) => isActive ? 'active-nav' : ''} to={link.path}>{link.name}</NavLink>
                     </li>
                   )
                 } )
@@ -25,7 +25,7 @@ const Navbar = () => {
               <button className='nav__toggle-btn'>
                 <GoThreeBars/>
               </button>
-
+             
         </div>
     </nav>
   )
