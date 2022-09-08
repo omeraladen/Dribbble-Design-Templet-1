@@ -1,0 +1,100 @@
+.main__header{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    margin-top: 6rem;
+    
+
+
+
+    .main__header-container{
+        
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(500px , 1fr));
+        gap: 20px;
+        width: 90%;
+        
+
+    }
+
+    .main__header-left{
+        padding-top: 5rem;
+        position: relative;
+        
+
+
+        p{
+            padding: 10px 0;
+        }
+
+        .check{
+            margin-top: 1rem;
+        }
+        h4{
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            margin-bottom: 10px;
+            
+        }
+        .btn{
+            margin-top: 3rem;
+
+            .btn-2:hover , .btn-1:hover{
+                opacity: .7;
+                
+            }
+        }
+
+        .btn-1{
+            outline: none;
+            border: none;
+            background-color: #8A2BE2	;
+           
+            border-radius: 5px;
+            padding:15px 25px ;
+            color: #fff;
+        }
+        
+        .btn-2{
+            margin-left: 10px;
+            outline: none;
+            border: none;
+            background-color: #000	;
+          
+            border-radius: 5px;
+            padding:15px 25px ;
+            color: #fff;
+        }
+    }
+
+    .main__header-right{
+        
+            
+            
+            
+        
+        
+        
+        .main-logo{
+          margin-left: 10rem;
+           
+           
+            
+            
+        
+        }
+    }
+
+
+}
+
+@media screen and (max-width:1012px) {
+    .main__header{
+        padding-top: 5rem;
+        
+    }
+    
+}

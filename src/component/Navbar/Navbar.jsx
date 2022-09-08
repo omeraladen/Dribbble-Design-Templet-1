@@ -5,6 +5,7 @@ import {GoThreeBars } from 'react-icons/go'
 import {IoMdClose} from 'react-icons/io'
 import './navbar.scss'
 import { useState } from 'react'
+// import {IoIosArrowDown} from 'react-icons/io'
 
 const Navbar = () => {
   const [ isNavShown , setIsShownNav ] = useState(false)
@@ -19,7 +20,8 @@ const Navbar = () => {
                 links.map( (link , index) => {
                   return ( 
                     <li key={index}>
-                      <NavLink id='nav_link' className={({isActive}) => isActive ? 'active-nav' : ''} to={link.path}>{link.name}</NavLink>
+                      <NavLink id='nav_link' className={({isActive}) => isActive ? 'active-nav' : '' }   to={link.path}>{link.name}</NavLink>
+                      {/* <IoIosArrowDown/> */}
                     </li>
                   )
                 } )
