@@ -41,7 +41,9 @@ nav {
         
     }
     
-    
+    .main__nav-links{
+        
+    }
 
     .nav__links{
         display: flex;
@@ -71,7 +73,7 @@ nav {
 }
 @media screen and (min-width:767px)  {
    
-    .nav__toggle-btn{display: none;}
+    .nav__toggle-btn,.left-icons{display: none;}
     
 
 }
@@ -131,4 +133,46 @@ nav {
     }
     
     
+}
+.left-icons{
+    display: flex;
+    margin-left: auto;
+    gap: 10px;
+    
+
+
+
+    .lang{
+        display: flex;
+        align-items: center;
+        font-weight: bold   ;
+
+
+        p{
+            margin-right: 3px;
+            color: rgb(43, 43, 43);
+        }
+        .arrow{
+            opacity: .8;
+        }
+    }
+    .account{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .log-in{
+        color: black;
+        font-weight: bold   ;
+        opacity: .9;
+    }
+    .sign-up{
+        background: #8A2BE2;
+        color: #fff;
+        font-weight: bold;
+        padding: 7px 12px ;
+        border-radius: 6px;
+        border: none    ;
+        opacity: .8;
+    }
 }

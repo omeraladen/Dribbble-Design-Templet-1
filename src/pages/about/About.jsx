@@ -1,6 +1,8 @@
 import './about.scss'
 import {Link } from 'react-router-dom'
-import logo from '../../images/main__header.png'
+import macBook from '../../images/main__header.png'
+import iphone from '../../images/iphone.png'
+import ipad from '../../images/ipad.png'
 import {AiOutlineCheckCircle} from 'react-icons/ai'
 
 const About =() => {
@@ -33,7 +35,9 @@ const About =() => {
           <div className="main__header-right">
             <div className="main__header-circle">
               <div className="main__header-image">
-              <img className='main-logo' src={logo} alt="nav-logo" />
+              <img className='iphone' src={iphone} alt="nav-logo" />
+              <img className='macBook' src={macBook} alt="nav-logo" />
+              <img className='ipad' src={ipad} alt="nav-logo" />
               </div>
             </div>
           </div>
